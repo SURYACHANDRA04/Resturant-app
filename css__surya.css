@@ -1,0 +1,38 @@
+/* Customize your styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* This will maintain the aspect ratio */
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ff6347;
+}
